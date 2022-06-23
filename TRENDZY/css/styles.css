@@ -883,7 +883,6 @@ small {
 .form-signin input::placeholder {
     padding: 5px;
     font-family: Roboto;
-    width: 10px;
 }
 
 .form-signin input:hover {
