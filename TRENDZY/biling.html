@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Checkout | TRENDZY</title>
+</head>
+
+<body>
+
+    <!-------------HEADER------------->
+
+    <div class="container">
+        <div class="navbar">
+            <a href="dashboard.html"><img src="images/logo.png" alt="LOGO Image" class="logo"></a>
+            <nav>
+                <div class="dropdown">
+                    <p class="drop"><a href="dashboard.html">Home</a></p>
+                </div>
+                <div class="dropdown">
+
+                    <p class="drop"><a href="shop.html">Shop</a></p>
+
+                </div>
+                <div class="dropdown">
+                    <p class="drop">Men Fashion</p>
+                    <div class="dropdown-content">
+                        <a href="items.html#jumpers-catalog">Jumper Shirts</a>
+                        <a href="items.html#jackets-catalog">Jackets</a>
+                        <a href="items.html#trouser-catalog">Trousers</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="drop">Accessories</p>
+                    <div class="dropdown-content">
+                        <a href="items.html#fragrance-catalog">Fragrance</a>
+                        <a href="items.html#watches-catalog">Watches</a>
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="drop">Women Fashion</p>
+                    <div class="dropdown-content">
+                        <a href="items.html#shirts-catalog">Linen Shirts</a>
+                        <a href="items.html#scarf-catalog">Scarfs</a>
+                        <a href="items.html#womentrouser-catalog">Trousers</a>
+                    </div>
+                </div>
+
+            </nav>
+
+
+            <div class="dropdownicon">
+                <p class="dropicon">
+                    <img style="filter:invert(100%);" src="images/search_icon.png" alt="" class="carticon"></img>
+                </p>
+                <div class="dropdownicon-content">
+                    <input type="search" name="search" id="" placeholder="&#8981; search">
+                </div>
+            </div>
+
+            <div class="dropdownicon">
+                <p class="dropicon">
+                    <a href="cart.html"><img src="images/cart.png" alt="" class="carticon"></a>
+                </p>
+                <div class="dropdownicon-content">
+                    <a href="cart.html">Cart</a>
+                    <a href="biling.html">Checkout</a>
+                </div>
+            </div>
+            <div class="dropdownicon">
+                <p class="dropicon">
+                    <a href="user.html"><img src="images/user.png" alt="" class="carticon"></a>
+                </p>
+                <div class="dropdownicon-content">
+                    <a href="user.html">Account</a>
+                    <a href="login.html">Sign Out</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------Checkout Page----------->
+    <div class="small-container">
+        <img src="images/checkout-bg.jpg" alt="Background">
+        <div class="cart-details">
+            <div class="left-menu">
+                <h1>Delivery Details</h1>
+                <h2>&#9821;John Smith</h2>
+                <h5>&#9735; House # 6 street walkers floor 8, appartment 2, Texas, Delaware, USA</h5>
+                <h5>&#9743; 0900-78601</h5>
+                <h5>&#9993; johnsmith@gmail.com</h5>
+                <button><a href="user.html">Change</a></button>
+                <h1>Order Summary</h1>
+                <div class="temp">
+                    <p>Total Items &nbsp;&nbsp;&nbsp;= &nbsp;&nbsp;4</p>
+                    <p>Sales Tax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= $31</p>
+                    <p>Total Amout &nbsp;= $381</p>
+                    <br>
+                    <form action=""> <input type="text" id="foo" placeholder="Enter Cuppon Code">
+                        <button id="apply"><a href="#"> Apply</a></button>
+                    </form>
+                </div>
+            </div>
+            <div class="right-menu">
+                <h1>Payment</h1>
+                <form action="shop.html">
+                </form>
+                <input type="text" placeholder="Card Number"><br><br>
+                <input type="text" placeholder="Name on Card"><br><br>
+                <input type="text" id="exp" placeholder="Exp Date">
+                <input type="text" id="exp1" placeholder="CVC"><br><br><br>
+                <button type="submit"><a href="shop.html">Confirm & Pay</a></button>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------FOOTER----------->
+    <div class="footer">
+        <div class="container" style="padding-left: 0px;">
+            <div class="row1">
+                <div class="column-4">
+                    <h2>TRENDZY</h2>
+                    <p>The customer is at the heart of our unique business model, which includes style and comfort.</p>
+                    <p style="font-size: 15px; padding-top: 0px;">&#9743; &nbsp; 0900-78601</p>
+                </div>
+                <div class="column-4">
+                    <ul>
+                        <h2>Shopping</h2>
+                        <li>Policy</li>
+                        <li>Payment Methods</li>
+                        <li>Delivery</li>
+                        <li>Return & Exchange</li>
+                    </ul>
+
+                </div>
+                <div class="column-4">
+
+                    <ul>
+                        <h2>Follow Us</h2>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">Instagram</li></a>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                            <li>
+                                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                            <li>
+                                <a href="https://www.youtube.com/" target="_blank">Youtube</a></Youtube>
+                            </li>
+                    </ul>
+
+                </div>
+                <div class="column-4">
+                    <h2>NEWSLETTER</h2>
+                    <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                    <center><input type="email" class="newsletter" placeholder="Your email&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&#9993;"></center>
+                </div>
+
+                <h4>Copyrights &#169; 2020 All Rights Reserved | Designed by <a href="https://www.instagram.com/ahsan_ra0/" target="_blank">AHSAN</a>
+                </h4>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
